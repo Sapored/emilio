@@ -1,0 +1,8 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^xilion\.io$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.xilion\.io$
+RewriteRule ^es\/?$ "https\:\/\/xilion\.io\/es\/" [R=301,L]
+
