@@ -45,9 +45,8 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <?php  include_once '../includes/templates/nav-wrap.php'?>
-    <?php  include_once '../includes/templates/nav-mobile.php'?>
+    <?php  include_once '../includes/templates/header.php'?>
     <nav class="nav-normal">
-        <?php  include_once '../includes/templates/nav-standard-es.php'?>
     </nav>
     <section class="header">
         <h1 id="name">¡Gracias!</h1>

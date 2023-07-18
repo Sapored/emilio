@@ -76,7 +76,7 @@
     <!-- End Google Tag Manager (noscript) -->
     <?php include_once '../includes/templates/nav-wrap.php' ?>
     <?php include_once '../includes/templates/nav-mobile.php' ?>
-    <?php include_once '../includes/templates/header-kioscos.php' ?>
+    <?php include_once '../includes/templates/header.php' ?>
     <div class="kioscos-first">
         <div class="kk-header">
             <p class="title">Una agencia de diseño <span>con otra óptica</span></p>

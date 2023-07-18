@@ -1,0 +1,249 @@
+.div-contactos{
+    background-color: #04153C;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 1rem;
+}
+
+.contactos{
+    display: flex;
+    padding: 12px 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    align-self: stretch;
+    border-radius: 50px;
+    background: var(--yellow, #FBCF15);
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal
+}
+
+
+.flecha{
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.enviar{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    color: #81FFA3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.whats{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 400;
+    border-radius: 30px;
+    background: rgba(29, 208, 63, 0.24);
+    margin-top: auto;
+}
+.contactar{
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
+}
+
+.logo-whats{
+    width: 22px;
+    height: 22px;
+}
+
+.logo-telefono{
+    width: 22px;
+    height: 22px;
+}
+
+.llamar-texto{
+    color: #7ED9FF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.llamar{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: rgba(26, 117, 207, 0.24);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.kiosk-icon{
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    border-color: #ECF1FF;
+    border-radius: 30px;
+}
+
+.element.style{
+    gap: 20px;
+}
+
+.icon{
+    position:relative;
+    padding: 1rem;
+    z-index: 1.5;
+    background-color: #ECF1FF;
+    border-radius: 50%;
+    gap:1rem;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+  }
+
+  .icon-alt{
+    position:relative;
+    padding: 1rem;
+    z-index: 1.5;
+    background-color: #FFF5EB;
+    border-radius: 50%;
+    gap:1rem;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+  }
+
+  .first-table {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.sol {
+    display: flex;
+}
+
+.solution{
+    width: 36rem;
+}
+
+.nave:hover .soluciones {
+    width: 82rem;
+}
+
+.flecha{
+    justify-content: right;
+    position:static;
+}
+
+.solution {
+    width: 315px;
+    display: flex;
+    background-color: white;
+    border-radius: 1rem;
+    transition: all 300ms;
+    cursor: pointer;
+    padding: 8px;
+    padding-left: 0rem;
+    border-spacing: 0.4rem;
+}
+
+.solution-text{
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    padding-right: 0rem;
+    background-color: white;
+    transition: all 300ms;
+    display: flex;
+}
+
+.solution:hover {
+    background-color: #ECF1FF;
+    transition: all 300ms;
+
+}
+
+.about-us{
+    color: var(--yimi-day-text-tertiary, #363F4D);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 1.5rem;
+}
+
+.sol-div {
+    color: var(--yimi-day-text-brand, #0051FF);
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 141.176% */
+    letter-spacing: 0.15px;
+    padding-bottom: 16px;
+    padding-top: 3.2rem;
+}
+
+.sol-div-2{
+    color: var(--yimi-day-text-brand, #0051FF);
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 141.176% */
+    letter-spacing: 0.15px; 
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.sol-div-3{
+    color: var(--yimi-day-text-brand, #0051FF);
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 141.176% */
+    letter-spacing: 0.15px; 
+}
+
+.soluciones {
+    position: absolute;
+    top: 10rem;
+    z-index: 3;
+    background-color: white;
+    box-shadow: 0px 0px 9.6rem rgba(0, 0, 0, 0.1);
+    border-radius: 1.2rem;
+    opacity: 0;
+    display: none;
+    transition: all 300ms;
+    width: 70rem;
+    padding-left: 32px;
+    padding-bottom: 8px;
+}
+
+.language{
+    color: var(--white, #FAFBFF);
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
