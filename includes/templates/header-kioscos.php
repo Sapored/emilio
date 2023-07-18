@@ -153,7 +153,7 @@
                                     </div>
                                 </a>
                                 <a href="/es/arcos.php">
-                                    <div class="solution">
+                                    <div class="solution-alt">
                                         <div class="icon-alt">
                                             <img src="/assets-landings/assets-kioscos/kas/ia.svg">
                                         </div>

@@ -55,156 +55,158 @@
                         </div>
 
                         <div>
-                            <div class="solution-text">
+                            <div class="solution-movil-text">
                                 <h5 class="texto-h5">Soluciones</h5>
-                                <img src="/img/iconos/arrow-variants.svg" class="flecha">
+                                <img src="/img/iconos/arrow-variants.svg" class="flecha-2">
                             </div>
                         </div>
 
-                        <div class="sol-div">Kioscos</div>
-                        <a href="gobierno.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="../../assets-landings/assets-kioscos/kas/gobierno.svg">
+                        <div class="contenido">
+                            <div class="sol-div">Kioscos</div>
+                            <a href="gobierno.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="../../assets-landings/assets-kioscos/kas/gobierno.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Gobierno y servicios publicos</div>
+                                    </div>
                                 </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Gobierno y servicios publicos</div>
+                            </a>
+                            <a href="recursoshumanos.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="../../assets-landings/assets-kioscos/kas/recursosh.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Recursos Humanos</div>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="recursoshumanos.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="../../assets-landings/assets-kioscos/kas/recursosh.svg">
+                            </a>
+                            <a href="universidades.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="/assets-landings/assets-kioscos/kas/uni.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Universidades y Escuelas</div>
+                                    </div>
                                 </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Recursos Humanos</div>
+                            </a>
+                            <a href="serviciosfinancieros.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="/assets-landings/assets-kioscos/kas/finanzas.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Finanzas y seguros</div>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="universidades.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="/assets-landings/assets-kioscos/kas/uni.svg">
+                            </a>
+                            <a href="retail.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="/assets-landings/assets-kioscos/kas/pdv.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Retail y punto de venta</div>
+                                    </div>
                                 </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Universidades y Escuelas</div>
+                            </a>
+                            <a href="entretenimiento.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="/assets-landings/assets-kioscos/kas/entretenimiento.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Entretenimiento y gestión de contenido</div>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="serviciosfinancieros.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="/assets-landings/assets-kioscos/kas/finanzas.svg">
+                            </a>
+                            <a href="../kioscos.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="/assets-landings/assets-kioscos/kas/pos.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">POS - Kiosco Yimi</div>
+                                    </div>
                                 </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Finanzas y seguros</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="retail.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="/assets-landings/assets-kioscos/kas/pdv.svg">
-                                </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Retail y punto de venta</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="entretenimiento.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="/assets-landings/assets-kioscos/kas/entretenimiento.svg">
-                                </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Entretenimiento y gestión de contenido</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="../kioscos.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="/assets-landings/assets-kioscos/kas/pos.svg">
-                                </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">POS - Kiosco Yimi</div>
-                                </div>
-                            </div>
-                        </a>
+                            </a>
 
 
 
-                        <div class="sol-div-2">Seguridad y mobilidad</div>
-                        <a href="/es/cad.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="/assets-landings/assets-kioscos/kas/despacho.svg">
+                            <div class="sol-div-2">Seguridad y mobilidad</div>
+                            <a href="/es/cad.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="/assets-landings/assets-kioscos/kas/despacho.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Despacho 911</div>
+                                        <div class="sol-letrita">Monitoreo, respuesta y analítica</div>
+                                    </div>
                                 </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Despacho 911</div>
-                                    <div class="sol-letrita">Monitoreo, respuesta y analítica</div>
+                            </a>
+                            <a href="/es/arcos.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="/assets-landings/assets-kioscos/kas/repuve.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Arcos REPUVE</div>
+                                        <div class="sol-letrita">Detección de placas y chip REPUVE</div>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="/es/arcos.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="/assets-landings/assets-kioscos/kas/repuve.svg">
+                            </a>
+                            <a href="/es/sistemadetransporte.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="/assets-landings/assets-kioscos/kas/cobro.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Cobro en Transporte Urbano</div>
+                                        <div class="sol-letrita">Control total de la unidad</div>
+                                    </div>
                                 </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Arcos REPUVE</div>
-                                    <div class="sol-letrita">Detección de placas y chip REPUVE</div>
+                            </a>
+                            <div class="sol-div-3">Software y Diseño</div>
+                            <a href="/es/software.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="/assets-landings/assets-kioscos/kas/desarrollo.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Desarrollo de Software</div>
+                                        <div class="sol-letrita">App - Sistemas - Automatización</div>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                        <a href="/es/sistemadetransporte.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="/assets-landings/assets-kioscos/kas/cobro.svg">
+                            </a>
+                            <a href="/es/design.php">
+                                <div class="solution-movil">
+                                    <div class="icon">
+                                        <img src="/assets-landings/assets-kioscos/kas/uxui.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Diseño de Apps y backoffice</div>
+                                        <div class="sol-letrita">Tu app - Pagina web - e-commerced</div>
+                                    </div>
                                 </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Cobro en Transporte Urbano</div>
-                                    <div class="sol-letrita">Control total de la unidad</div>
+                            </a>
+                            <a href="/es/arcos.php">
+                                <div class="solution-movil">
+                                    <div class="icon-alt">
+                                        <img src="/assets-landings/assets-kioscos/kas/ia.svg">
+                                    </div>
+                                    <div class="sol-text">
+                                        <div class="sol-subtitle">Inteligencia artificial</div>
+                                        <div class="sol-letrita">Chatbot con tus documentos y PDFs</div>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                        <div class="sol-div-3">Software y Diseño</div>
-                        <a href="/es/software.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="/assets-landings/assets-kioscos/kas/desarrollo.svg">
-                                </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Desarrollo de Software</div>
-                                    <div class="sol-letrita">App - Sistemas - Automatización</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="/es/design.php">
-                            <div class="solution">
-                                <div class="icon">
-                                    <img src="/assets-landings/assets-kioscos/kas/uxui.svg">
-                                </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Diseño de Apps y backoffice</div>
-                                    <div class="sol-letrita">Tu app - Pagina web - e-commerced</div>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="/es/arcos.php">
-                            <div class="solution">
-                                <div class="icon-alt">
-                                    <img src="/assets-landings/assets-kioscos/kas/ia.svg">
-                                </div>
-                                <div class="sol-text">
-                                    <div class="sol-subtitle">Inteligencia artificial</div>
-                                    <div class="sol-letrita">Chatbot con tus documentos y PDFs</div>
-                                </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                    </a>
                 </div>
-                </a>
 
 
 
@@ -222,6 +224,7 @@
                                 </div>
                             </div>
                         </a>
+                        <div class="linea"></div>
                         <a href="/es/portafolio.php">
                             <div class="menu-href-low">
                                 <div class="href-left">
@@ -232,6 +235,7 @@
                                 </div>
                             </div>
                         </a>
+                        <div class="linea"></div>
                     </div>
                 </div>
             </div>
@@ -246,20 +250,20 @@
             </a>
 
             <div class="contactar">
-            <a href="/es/contacto.php" class="whats">
-                <div class="enviar">
-                    <img src="/assets-landings/assets-kioscos/kas/whats.svg" alt="logo-whats">
-                    Enviar Whatsapp
-                </div>
-            </a>
+                <a href="/es/contacto.php" class="whats">
+                    <div class="enviar">
+                        <img src="/assets-landings/assets-kioscos/kas/whats.svg" alt="logo-whats">
+                        Enviar Whatsapp
+                    </div>
+                </a>
 
-            <a href="/es/contacto.php" class="llamar">
-                <div class="llamar-texto">
-                    <img src="/assets-landings/assets-kioscos/kas/llamada.svg" alt="logo-telefono">
-                    Llamar experto
-                </div>
-            </a>
-        </div>
+                <a href="/es/contacto.php" class="llamar">
+                    <div class="llamar-texto">
+                        <img src="/assets-landings/assets-kioscos/kas/llamada.svg" alt="logo-telefono">
+                        Llamar experto
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>
