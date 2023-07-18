@@ -3298,7 +3298,7 @@ nav {
 
 .side-bar {
     display: flex;
-    position:absolute;
+    position:fixed;
     bottom: 0;
     width: 100vw;
     height: calc(100% - 6.8rem);
@@ -3348,6 +3348,8 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 
@@ -3390,6 +3392,10 @@ nav {
     line-height: normal;
 }
 
+.lista-comp{
+    width: fit-content;
+}
+
 .menu-href {
     justify-content: space-between;
     align-items: center;
@@ -3403,7 +3409,6 @@ nav {
 
 .menu-href:hover {
     background-color: #F5F4F9;
-    border-radius: 5rem;
 }
 
 .href-left {
@@ -3513,10 +3518,12 @@ nav {
 .solicita {
     justify-content: space-between;
     align-items: center;
+    padding-bottom:0.5rem;
     padding-top: 1rem;
     align-self: center;
     color: white;
     width: 98%
+    
 }
 
 .div-contactos{
@@ -3585,10 +3592,11 @@ nav {
     width: 48%;
 }
 .contactar{
-    justify-content: space-between;
     display: flex;
     align-content: center;
-    padding: 1rem;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1.5rem;
 }
 
 .logo-whats{
